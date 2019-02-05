@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user scalable=no">    
+    <title>Hoja de Vida - Educación</title>
+</head>
+<body>
+    <header>
+        <svg style="border:2px solid black" width="200" height="100">
+                <image xlink:href="../img/logo.svg" widht="350px" height="250px" x="20px" y="-60px"></image>
+        </svg>
+        <h1>HOJA DE VIDA</h1>
+        <h2>James Francois Bonilla Macias</h2>
+        <h3>Fecha Nacimiento: 19-Agosto-1989</h3>
+        <h3>Lugar Nacimiento: Cali, Valle del Cauca</h3>
+    </header>
+        
+    <nav>
+        <a href="../index.html">Volver a Inicio</a>|
+        <a href="html/experiencia.html" target="_blank">Experiencia Laboral</a>
+    </nav>
+    
+    <section>
+        <h2>Educacion</h2>
+
+        <table border="1" cellspacing="2" cellpading="15">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Estudios Realizados</th>
+                    <th>Institucion</th>
+                    <th>Lugar</th>
+                    <th>¿Culmino?</th>
+                </tr>
+            </thead>
+            <tbody>                
+                <tr>
+                    <td>2019</td>
+                    <td>Diseño Web</td>
+                    <td>Next University</td>
+                    <td>Virtual</td>
+                    <td>En Curso</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Direccion en Ventas</td>
+                    <td>SENA Salomia</td>
+                    <td>Cali, Valle del Cauca</td>
+                    <td>SI</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>Bachillerato</td>
+                    <td>Institucion Educativa Politécnico Boyacá</td>
+                    <td>Cali, Valle del Cauca</td>
+                    <td>SI</td>
+                </tr>                
+            </tbody>
+        </table>
+
+        <form autocomplete="on" name="agregarEtudios">
+            <fieldset>
+                <legend>Agregar Estudios</legend>
+                <p>
+                    <label for="año">Año</label><br/>
+                    <select name="año">
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="institucion">Nombre Institución</label><br/>
+                    <input type="text" name="institucion" placeholder="Ej:Next University" autofocus required>
+                </p>
+
+                <p>
+                    <label for="lugar">Lugar</label><br/>
+                    <input type="text" name="lugar" placeholder="Cali, Valle del Cauca" autofocus requiered>
+                </p>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+            <p>Celular: 3156467668</p>
+            <p>Email: ianxisco72@gmail.com</p>
+            <p>Direccion: Carrera 66 # 13-24 Cali, Valle del Cauca</p>
+    </footer>    
+</body>
+</html>
